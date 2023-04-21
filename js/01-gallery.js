@@ -39,7 +39,6 @@ function onImgClick(e) {
 `);
 
 	instance.show();
-
 	document.addEventListener("keydown", closeImgCard);
 }
 
