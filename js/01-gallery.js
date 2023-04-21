@@ -32,9 +32,9 @@ function onImgClick(e) {
 
 	const imgSource = e.target.dataset.source;
 
-	const instance = basicLightbox.create(`
+	instance = basicLightbox.create(`
     <div class="modal">
-    <img src="${imgSource}" />
+    <img src="${imgSource}"/>
     </div>
 `);
 
